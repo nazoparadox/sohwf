@@ -13,7 +13,7 @@ int main()
 				.target = LOAD_RPX_TARGET_SD_CARD,
 				.filesize = 0,
 				.fileoffset = 0,
-				.path = "wiiu/apps/soh/soh.rpx",
+				.path = "wiiu/apps/snes9x_libretro/snes9xlibretro.rpx",
 			};
 
 			if(Mocha_LaunchRPX(&info) != MOCHA_RESULT_SUCCESS)
